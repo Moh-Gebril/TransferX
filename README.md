@@ -41,14 +41,10 @@ python3 src/transferX.py --client --file-path "path/to/file" --host "192.168.1.1
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/Moh-Gebril/TransferX.git
    cd transferx
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
    ```
 
 ## How It Works
@@ -82,7 +78,7 @@ src/
 
 1. On another machine, send a file to the server:
    ```bash
-   python3 src/transferX.py --client --file-path "path/to/file" --host "192.168.11.10" --port 8080
+   python3 src/transferX.py --client --file-path "path/to/file" --host "192.168.1.10" --port 8080
    ```
 2. The server will save the file in the same directory where it was started.
 
